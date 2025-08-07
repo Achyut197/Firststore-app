@@ -2,10 +2,10 @@
 
 A frontend development project built with **React.js**, **Vite**, and **Tailwind CSS**.
 
----
+
 
 ##  Overview
-
+  deployment link - https://firsrstore-app.netlify.app/
 FirstStore App is a responsive web application using modern tooling:
 - **React.js** for the component-based UI.
 - **Vite** for blazing-fast development experience with hot module replacement.
