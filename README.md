@@ -2,7 +2,7 @@
 
 A frontend development project built with **React.js**, **Vite**, and **Tailwind CSS**.
 
- deployment link - https://firsrstore-app.netlify.app/
+ deployment link - https://firststore-app.netlify.app/
 
 ##  Overview
  
