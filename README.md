@@ -1,12 +1,67 @@
-# React + Vite
+# FirstStore App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend development project built with **React.js**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Overview
 
-## Expanding the ESLint configuration
+FirstStore App is a responsive web application using modern tooling:
+- **React.js** for the component-based UI.
+- **Vite** for blazing-fast development experience with hot module replacement.
+- **Tailwind CSS** for utility-first styling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+Firststore-app/
+├── public/                 # Static assets and index.html
+├── src/                    # React components and entry point
+├── .gitignore
+├── package.json
+├── postcss.config.cjs      # PostCSS configuration
+├── tailwind.config.cjs     # Tailwind setup and customizations
+├── vite.config.js          # Vite configuration
+├── eslint.config.js        # ESLint rules
+└── README.md
+
+
+##  Technologies
+
+| Feature                | Description |
+|------------------------|-------------|
+| **Vite**               | Bundler and dev server, optimized for speed. |
+| **React.js**           | Library for building the UI. |
+| **Tailwind CSS**       | Utility-first CSS framework for styling. |
+| **ESLint**             | Configured for linting and code style enforcement. |
+| **PostCSS** & **Tailwind Config** | For CSS transformations and customizations. |
+| **Git**                | Project version control.
+
+---
+
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/Achyut197/Firststore-app.git
+cd Firststore-app
+npm install
+
+##  Running in Development
+npm run dev
+
+##  Building for Production
+npm run build         -(Generates optimized and minified files in the dist/ directory.)
+
+##   Previewing the Build
+ npm run preview
+
+
+
+
+
+
+
